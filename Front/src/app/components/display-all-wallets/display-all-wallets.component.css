@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'poppins';
+  }
+  input[type=text],[type=password],[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    transition: 1s;
+  }
+  input:hover{
+    letter-spacing: 6px;
+    transition: 0.5s;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  .container {
+    border-radius: 5px;
+    background-color:aquamarine; 
+    padding: 20px;
+    margin: 125px 50px 50px 50px ;
+    
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #heading{
+    justify-content: center;
+    display: flex;
+
+  }
+
+  #btn{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    max-width: 400px;
+    padding: 10px 0;
+    transition: 0.5s;
+  }
+
+ 
+  #btn:hover{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    letter-spacing: 6px;
+    transition: 0.5s;
+  }
+ 
